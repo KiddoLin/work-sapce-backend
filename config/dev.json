@@ -1,0 +1,40 @@
+{
+	"port": 7000,
+    "qiniu": {
+    	"accessKey": "accessKey",
+        "secretKey": "secretKey",
+        "bucket": "dev",
+        "bucketUrl": "http://host"
+    },
+    "db": {
+        "database": "database",
+        "username": "root",
+        "password": "123456",
+        "options": {
+            "host": "127.0.0.1",
+            "dialect": "mysql",
+            "timezone": "+08:00"
+        }
+    },
+    "redis": {
+        "host": "127.0.0.1",
+        "port": 6379
+    },
+    "crypto": {
+        "password": {
+            "salt": "salt",
+            "iterations": 100,
+            "keyLen": 48,
+            "digest": "digest"
+        }
+    },
+    "qqmap": {
+        "key": "key",
+        "secret": "secret",
+        "placeApiUrl": "http://apis.map.qq.com/ws/place/v1/search",
+        "distance": 800
+    },
+    "gsApi": {
+        "getQrcodeUrl": "http://host/weapp/Wxaqrcode/get"
+    }
+}
