@@ -18,7 +18,7 @@
     "lint"
   ],
   "dependencies": {
-    "async": "^2.0.0-rc.2",
+    "async": "^3.2.2",
     "body-parser": "^1.17.2",
     "compression": "^1.6.2",
     "serve-favicon": "^2.3.0",
